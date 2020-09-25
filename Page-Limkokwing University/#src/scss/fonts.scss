@@ -1,0 +1,16 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+	@font-face {
+		font-family: $font_name;
+		font-display: swap;
+		src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+		font-weight: #{$weight};
+		font-style: #{$style};
+	}
+}
+
+@include font(Roboto, Roboto-Medium, 500px, normal);
+@include font(Roboto, Roboto-Regular, 400px, normal);
+
+@include font(Montserrat, Montserrat-Bold, 700px, normal);
+@include font(Montserrat, Montserrat-Medium, 500px, normal);
+@include font(Montserrat, Montserrat-Regular, 400px, normal);

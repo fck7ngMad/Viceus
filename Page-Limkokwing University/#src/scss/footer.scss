@@ -1,0 +1,58 @@
+.footer {
+	flex: 0 0 auto;
+	&__content {
+		position: relative;
+	}
+	&__first-block {
+		width: auto;
+		height: 30px;
+		background-color: #ebebeb;
+	}
+	&__second-block {
+		width: auto;
+		height: 30px;
+		background-color: #c4c4c4;
+	}
+	&__third-block {
+		width: auto;
+
+		background-color: #747474;
+		text-align: center;
+		padding: 20px;
+		&-text {
+		}
+	}
+	&__contact {
+		display: inline-block;
+		position: absolute;
+		top: -120px;
+		left: 200px;
+		padding: 40px;
+		background-color: #f9f9f9;
+	}
+	&__how-contact {
+		font-family: Roboto;
+		font-size: 24px;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+	&__our-contact {
+	}
+	&__gmail {
+		font-family: Roboto;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	&__number {
+		font-family: Roboto;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	&__icon {
+		display: flex;
+	}
+	&__icons {
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+}
