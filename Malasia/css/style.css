@@ -237,7 +237,7 @@ h6 {
   left: -40%;
   list-style: none;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: all;
   -webkit-transform: translateY(-10px);
       -ms-transform: translateY(-10px);
           transform: translateY(-10px);
